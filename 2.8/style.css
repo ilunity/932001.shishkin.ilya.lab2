@@ -1,0 +1,44 @@
+@import url("../normalize.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    margin: 5px;
+}
+
+aside {
+    flex: 0 0 200px;
+
+    background-color: #00fcfc;
+}
+
+ul {
+    padding: 10px;
+    background: #fde3c3;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+section {
+    background-color: #a8a8a8;
+}
+
+
+footer {
+    width: 100%;
+    height: 70px;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: #32cc32;
+}

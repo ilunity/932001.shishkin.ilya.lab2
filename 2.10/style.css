@@ -1,0 +1,18 @@
+@import url("../normalize.css");
+
+.float-box {
+    float: left;
+    width: 200px;
+    height: 100px;
+
+    margin: 20px 20px 10px;
+
+    background-color: #7efdd3;
+}
+
+.clear {
+    clear: both;
+    width: 100%;
+
+    background-color: #fde3c3;
+}

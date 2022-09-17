@@ -1,0 +1,18 @@
+main {
+    color: white;
+}
+
+main div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.clear-block {
+    background-color: #007f00;
+    margin-bottom: 20px;
+}
+
+.padding-block {
+    padding: 50px;
+    background-color: blue;
+}

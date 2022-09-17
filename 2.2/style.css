@@ -1,0 +1,46 @@
+@import url("../normalize.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 50px;
+    padding: 5px;
+
+    background: #e8e8e9;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-column {
+    flex: 0 0 25%;
+    padding: 5px;
+
+    background-color: #c7fa97;
+    line-height: 20px;
+}
+
+.content-column {
+    padding: 5px;
+    line-height: 20px;
+}
+
+.right-column {
+    flex: 0 0 200px;
+    height: 100%;
+    padding: 5px;
+
+    background-color: #fbe75e;
+    line-height: 20px;
+}
+
+.red {
+    color: red;
+}

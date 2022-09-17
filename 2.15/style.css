@@ -1,0 +1,20 @@
+@import url('../normalize.css');
+
+.block-wrapper {
+    margin: 20px 20px 0;
+}
+
+.block {
+    display: inline-block;
+
+    width: 160px;
+    height: 90px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    background-color: #7efdd3;
+}
+
+.notification {
+    background-color: #faebd7;
+}

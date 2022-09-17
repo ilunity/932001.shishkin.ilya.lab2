@@ -1,0 +1,14 @@
+main div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.clear-block {
+    margin-bottom: 20px;
+}
+
+.border-block {
+    box-sizing: border-box;
+    padding: 50px;
+    border: 10px solid blue;
+}

@@ -1,0 +1,64 @@
+@import url("../normalize.css");
+
+.block {
+    color: white;
+}
+
+.block_small {
+    width: 150px;
+    height: 100px;
+}
+
+.block_default {
+    width: 300px;
+    height: 200px;
+}
+
+.block_large {
+    width: 600px;
+    height: 400px;
+}
+
+.block-1 {
+    background-color: #882be0;
+}
+
+.block-2 {
+    position: relative;
+    background-color: #8a0000;
+}
+
+.block-3 {
+    position: relative;
+    top: -30px;
+    left: 30px;
+
+    background-color: #cc843f;
+}
+
+.block-4 {
+    position: relative;
+
+    background-color: #c45858;
+}
+
+.block-5 {
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+
+    background-color: #4b0081;
+}
+
+.block-6 {
+    width: 100px;
+    height: 100px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    z-index: -1;
+
+    background-color: #228a22;
+}

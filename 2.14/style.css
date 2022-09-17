@@ -1,0 +1,47 @@
+@import url("../normalize.css");
+
+.container {
+    display: flex;
+
+    border: 1px solid green;
+    background-color: #00ffff;
+}
+
+.navigation {
+    width: 300px;
+    background-color: #fde3c3;
+}
+
+ul {
+    padding: 10px;
+    background: #fde3c3;
+}
+
+ul li {
+    list-style: disc inside;
+}
+
+.text {
+    line-height: 18px;
+
+    background-color: #a9a9a9;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .text {
+        width: auto;
+    }
+    .navigation {
+        width: auto;
+    }
+    .navigation ul {
+        padding: 0 30px;
+        margin: 10px 0;
+    }
+    .navigation ul li {
+        display: inline-block;
+    }
+}

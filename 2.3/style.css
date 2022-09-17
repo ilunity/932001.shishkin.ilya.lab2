@@ -1,0 +1,9 @@
+@import url("../normalize.css");
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+
+    color: white;
+    background-color: blue;
+}
